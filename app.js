@@ -67,4 +67,8 @@ app.use("/api/v1/admin/signin",signinRouter);
 
 dbConnection();
 
+app.listen(process.env.PORT, () => {
+    console.log( `Server listening on port ${process.env.PORT} `);
+});
+
 export default app;
