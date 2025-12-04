@@ -13,7 +13,7 @@ import classRouter from "./routers/classRouter.js"
 import assignmentRouter from "./routers/assignmentRouter.js"
 import eventsRouter from "./routers/eventsRouter.js"
 import libraryRouter from "./routers/libraryRouter.js"
-import profileRouter from "./routers/ProfileRouter.js"
+import profileRouter from "./routers/profileRouter.js"
 import signinRouter from "./routers/signinRouter.js"
 
 import { errorHandler } from "./middlewares/errorHandler.js";
