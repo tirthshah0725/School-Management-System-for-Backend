@@ -1,4 +1,4 @@
-import {profile} from "../modules/ProfileSchema.js";
+import {profile} from "../modules/profileSchema.js";
 
 export const createProfile = async (req, res, next) => {
   try {

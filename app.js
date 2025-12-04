@@ -27,7 +27,7 @@ import { Events } from "./modules/eventsSchema.js";
 import { Book } from "./modules/librarySchema.js";
 import { Student } from "./modules/studentSchema.js";
 import { Teacher } from "./modules/teacherSchema.js";
-import { profile } from "./modules/ProfileSchema.js";
+import { profile } from "./modules/profileSchema.js";
 import { User } from "./modules/signinSchema.js";
 
 const app = express();
